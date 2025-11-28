@@ -18,8 +18,8 @@ namespace MohawkGame2D
         Texture2D textureYay;
         Presents presentsYay = new Presents();
         bool onPit = false;
+        Assets bg = new Assets();
 
-        
         bool present1Collected = false;
         bool present2Collected = false;
         bool present3Collected = false;
@@ -44,7 +44,7 @@ namespace MohawkGame2D
         public void Update(Vector2 feetPosition)
         {
             Window.ClearBackground(Color.White);
-
+            bg.Update("MohawkGame2D\\Images\\Level1Floor.png");
             //the obstacles
             Draw.LineColor = Color.Yellow;
             Draw.FillColor = Color.Yellow;

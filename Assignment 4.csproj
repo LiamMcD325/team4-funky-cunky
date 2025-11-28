@@ -27,6 +27,12 @@
     <None Update="MohawkGame2D\Images\Kevin.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="MohawkGame2D\Images\Level1Floor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="MohawkGame2D\Images\Level2Floor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="MohawkGame2D\Images\Screenshot 2025-11-16 230008.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

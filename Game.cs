@@ -12,7 +12,7 @@ namespace MohawkGame2D
     public class Game
     {
 
-
+        
         // Place your variables here:
         Player player = new Player();
 
@@ -57,7 +57,7 @@ namespace MohawkGame2D
 
                 if (player.GetLives() == 1)
                 {
-
+                    
                     level1.Update(player.FeetCollision());
                     player.PassLevel1(level1.ReturnTheExit());
                 }

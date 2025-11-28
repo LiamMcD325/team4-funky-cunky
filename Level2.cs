@@ -13,6 +13,8 @@ namespace MohawkGame2D
         Vector2[] holeSize = new Vector2[10];
 
         bool onPit = false;
+
+        Assets bg = new Assets();
         public Level2() { }
 
         public void Setup(){
@@ -24,8 +26,10 @@ namespace MohawkGame2D
             Draw.LineColor = Color.Blue;
             Draw.FillColor = Color.Blue;
             onPit = false;
+            bg.Update("MohawkGame2D\\Images\\Level2Floor.png");
             for (int i = 0; i < holePosition.Length; i++)
             {
+                
                 Draw.Rectangle(holePosition[i], new Vector2(100,100));
                 //if ((holePosition[i].X + 100) > (playerFeet.X + 100) > holePosition[i].X > playerFeet.X){ ; }
                 if ((holePosition[i].X + 100) > (playerFeet.X + 100))
