@@ -1,3 +1,4 @@
-# team4-funky-cunky
+# team-funky-a4-platformfreakout
 
-Frankie- Assets (Wood Floor,Ice Floor and trees)
+Liam McDougall - Rotating 3D cube, 
+

@@ -1,0 +1,38 @@
+
+     Loading images.
+     Loading audio files to play looping music and/or one-shot sound effects. 
+     Loading a custom font. Would pair well with a small dialog box system.
+     Loading image frames and animating them using the flipbook method.
+     Get gamepad (controller) input. - Liam
+     Writing a player controller (move player around, perform actions). This might include writing rudimentary collision and applying forces such as gravity.
+     Writing a small collision detection system (box-box intersection, circle-circle intersection, point-shape intersection etc).
+     Writing a small physics system (apply gravity, friction, forces). Requires collision system.
+	 Writing a siCmple "artificial intelligence" (AI) to control a computer player, enemy, etc.
+     Writing a small 2D camera system (translate 2D shapes along x and y axes relative to camera position).
+
+
+-Presents, Cubes, circle collision detection,
+
+-Home alone game, play as kevin mcallister 
+-Title crawl 
+-Game Over dead body
+-Elvis kidnapped santa and wants to ruin christmas, 
+
+Textures:
+	-Kevin Mcallister
+	-Elvis
+	-Bloody Mess
+	-Santa Claus
+	-Christmas Tree
+	-Peanut Butter and Banana Sanwhich
+	-Fireplace
+
+Player Object;
+
+
+	-Gravity?
+	-Velocity?
+	-int health; //Max of 2
+	-int lives;  //Max of 3? maybe 2?
+	-int multiplied input values
+	-string direction //For ice level
