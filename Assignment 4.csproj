@@ -24,6 +24,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="MohawkGame2D\Images\ChristmasTree.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="MohawkGame2D\Images\DanielStern.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="MohawkGame2D\Images\JoePesci.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="MohawkGame2D\Images\Kevin.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

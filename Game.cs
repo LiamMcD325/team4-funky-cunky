@@ -25,7 +25,7 @@ namespace MohawkGame2D
 
         //Game over screen when the player dies
         GameOver gameOverScreen = new GameOver();
-
+        Assets bg = new Assets();
         /// <summary>
         ///     Setup runs once before the game loop begins.
         /// </summary>
@@ -46,15 +46,17 @@ namespace MohawkGame2D
         /// </summary>
         public void Update()
         {
-
-            cubes.Update(player.HasPresent());
-            //enemies.update();
-
             {
                 Window.ClearBackground(Color.White);
 
                 cubes.Update(player.HasPresent());
 
+                if (player.GetLives() == 0)
+                {
+                    bg.Update(new Vector2(Window.Width/2 - 100,Window.Height/2 - 250),"MohawkGame2D\\Images\\ChristmasTree.png");
+
+
+                }
                 if (player.GetLives() == 1)
                 {
                     
@@ -63,10 +65,11 @@ namespace MohawkGame2D
                 }
                 if (player.GetLives() == 2)
                 {
+
                     player.GetDirection();
                     level2.Update(player.FeetCollision());
-                    
-                   
+                    cubes.Update(player.HasPresent());
+
                 }
                 if (player.GetLives() == 3)
                 {

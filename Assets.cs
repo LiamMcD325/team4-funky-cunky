@@ -9,12 +9,9 @@ using System.Xml.Linq;
 
 namespace MohawkGame2D
 {
-
-
     public class Assets
     {
         
-
         public Assets() { }
         public void Setup()
         {
@@ -30,9 +27,8 @@ namespace MohawkGame2D
         /// <param name="position">Position</param>
         public void Update(Vector2 position, string texturePath)
         {
-             Vector2 textureSize = new Vector2(Window.Width, Window.Height);
             Texture2D background1 = Graphics.LoadTexture(texturePath);
-            Graphics.DrawSubset(background1, position, position, textureSize);
+            Graphics.Draw(background1, position);
 
         }
 
@@ -47,8 +43,5 @@ namespace MohawkGame2D
             Texture2D background1 = Graphics.LoadTexture(texturePath);
             Graphics.DrawSubset(background1, position, position, textureSize);
         }
-
-
-
     }
 }
